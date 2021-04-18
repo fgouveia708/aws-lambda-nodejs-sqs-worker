@@ -11,7 +11,7 @@ Esta é uma aplicação que demonstra como desenvolver e implantar um serviço P
 
 ## Como funciona
 
-Esta aplicação possui duas funções, o `producer` é acionado pelo evento `http`, aceita um JSON e envia para uma fila do SQS para processamento posterior e o `consumer` é responsável pelo processamento das mensagens da fila do SQS.
+Esta aplicação possui duas funções, o `producer` é acionado pelo evento `http`, aceita um JSON e envia para uma fila do SQS para processamento posterior e o `consumer` que é responsável pelo processamento das mensagens da fila do SQS.
 
 Além disso, a aplicação disponibiliza o provisionamento de uma outra fila para devoluções do SQS. A fila de devoluções é definida para evitar o processamento de mensagens inválidas repetidamente. Em nosso caso, se a mensagem for entregue à fila de origem mais de 5 vezes, ela será movida para a fila de devoluções. 
 
