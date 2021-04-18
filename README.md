@@ -4,10 +4,10 @@
 
 Esta é uma aplicação que demonstra como desenvolver e implantar um serviço PRODUCER-CONSUMER utilizando SERVERLESS com Serverless Framework, AWS Lambda, Amazon SQS e Amazon API Gateway.
 
-  - [Como funciona](https://github.com/fgouveia708/aws-nodejs-sqs-worker#como-funciona)
-  - [Setup](https://github.com/fgouveia708/aws-nodejs-sqs-worker#setup)
-  - [Deployment](https://github.com/fgouveia708/aws-nodejs-sqs-worker#deployment)
-  - [Uso](https://github.com/fgouveia708/aws-nodejs-sqs-worker#uso)
+  - [Como funciona](https://github.com/fgouveia708/aws-lambda-nodejs-sqs-worker#como-funciona)
+  - [Setup](https://github.com/fgouveia708/aws-lambda-nodejs-sqs-worker#setup)
+  - [Deployment](https://github.com/fgouveia708/aws-lambda-nodejs-sqs-worker#deployment)
+  - [Uso](https://github.com/fgouveia708/aws-lambda-nodejs-sqs-worker#uso)
 
 ## Como funciona
 
@@ -49,18 +49,18 @@ Serverless: Packaging service...
 Serverless: Excluding development dependencies...
 
 Service Information
-service: aws-nodejs-sqs-worker
+service: aws-lambda-nodejs-sqs-worker
 stage: dev
 region: us-east-1
-stack: aws-nodejs-sqs-worker-dev
+stack: aws-lambda-nodejs-sqs-worker-dev
 resources: 17
 api keys:
   None
 endpoints:
   POST - https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/dev/produce
 functions:
-  producer: aws-nodejs-sqs-worker-dev-producer
-  consumer: aws-nodejs-sqs-worker-dev-consumer
+  producer: aws-lambda-nodejs-sqs-worker-dev-producer
+  consumer: aws-lambda-nodejs-sqs-worker-dev-consumer
 layers:
   None
 ```
