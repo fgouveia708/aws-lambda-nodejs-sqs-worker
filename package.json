@@ -1,0 +1,8 @@
+  
+{
+    "name": "aws-nodejs-sqs-worker",
+    "version": "1.0.0",
+    "description": "Serverless Framework NodeJs SQS Producer-Consumer on AWS",
+    "author": "Fernando Gouveia",
+    "license": "MIT"
+  }
