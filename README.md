@@ -78,3 +78,7 @@ Exemplo do resultado:
 ```bash
 {"message": "Message accepted!"}
 ```
+
+## 👨‍💻
+
+Leia o artigo "**Processando filas com Amazon SQS e AWS Lambda — Serverless**": https://fernandogouveia.medium.com/processando-filas-com-amazon-sqs-e-aws-lambda-serverless-cc04f6c6a1
